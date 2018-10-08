@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="pics/youtube_icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube page</title>
+  </head>
+  <body>
+    <nav class="navigator">
+      <div class="menu">
+        <img id="menu" src="pics/menu.png" alt="menu">
+        <img id="logo" src="pics/utube.png" alt="youtube logo">
+      </div>
+      <form class="searchbar">
+        <input id="search" type="text" name="search" value="">
+        <input type="submit" name="submit" value="Search">
+      </form>
+      <div class="extras">
+        <img class="topicons" src="pics/video.png" alt="add video">
+        <img class="topicons" src="pics/apps.png" alt="more apps">
+        <img class="topicons" src="pics/messages.png" alt="messages received">
+        <img class="topicons" src="pics/notifications.png" alt="notification bell">
+        <img class="topicons" src="pics/profile.png" alt="user profile">
+      </div>
+    </nav>
+
+    <!-- main stage area -->
+    <div class="outer">
+      <div class="left">
+        <section>
+          <!-- main video -->
+          <main>
+            <iframe class="mainiframe" src="https://www.youtube.com/embed/3se_8OtkUt8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </main>
+          <!-- Summary -->
+          <summary>
+            <h2>20 things to do in Lisbon</h2>
+            <p id="formattext"><img src="pics/view.png" alt=" this is the number of views" width="20px" height="20px">3,543,543 views</p><br>
+            ______________________________________________________________<br>
+            <p>This video takes you around the top 20 things to do when visiting Lisbon!!</p>
+            <p>Lisbon is the capital and the largest city of Portugal, with an estimated population of 505,526 and one of the oldest cities in the world, and one of the oldest in Western Europe, predating other modern European capitals such as London, Paris and Rome by centuries. </p>
+          </summary>
+        </section>
+        <!-- Comments -->
+        <section>
+
+        </section>
+      </div>
+
+      <!-- Aside bar -->
+      <div class="right">
+        <!-- ADS -->
+        <div class="border">
+          <img class="ad" src="pics/ad2.gif" alt="this is an ad">
+          <!-- <img class="ad" src="pics/ad.gif" alt="this is an ad"> -->
+        </div>
+        <!-- Next video -->
+        <div class="border">
+            <h3>Up next</h3>
+            <iframe class="iframe" src="https://www.youtube.com/embed/7fVSoAJxrRI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <!-- Proposed videos -->
+        <section>
+          <iframe class="iframe"  src="https://www.youtube.com/embed/3se_8OtkUt8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe class="iframe" src="https://www.youtube.com/embed/aw-r_G7rfnU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe class="iframe" src="https://www.youtube.com/embed/DO9U_XxN-Kc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
